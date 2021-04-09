@@ -1,0 +1,24 @@
+{
+  "name": "pomodoro_reminder",
+  "version": "1.0.0",
+  "description": "<img src=\"./assets/exemple.png\" alt=\"Image demo\"/>",
+  "main": "./electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --icon assets/pomodoro-icon.ico --out=packages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chriszao/Instagram_post.git"
+  },
+  "keywords": [],
+  "author": "Christofer Assis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chriszao/Instagram_post/issues"
+  },
+  "homepage": "https://github.com/Chriszao/Instagram_post#readme",
+  "devDependencies": {
+    "electron": "^12.0.2"
+  }
+}

@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Inter', sans-serif;
+  font-size: 180%;
+
+  --primary-color: rgba(56, 58, 89, 1);
+  --primary-color-darker: rgba(56, 58, 89, 0.9);
+  --color-black-dracula: rgba(40, 42, 54);
+  --color-pink-dracula: rgb(216, 99, 187);
+  --color-pele-dracula: rgb(237, 237, 237);
+  --color-title-dracula: rgb(189, 147, 249);
+  --color-banco-dracula: rgb(242, 242, 242);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color-darker);
+}
+
+#timer {
+  font-size: 300%;
+  color: var(--color-pele-dracula);
+}
+
+#text {
+  color: var(--color-pink-dracula);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  width: 275px;
+  margin: 50px auto;
+  background: var(--color-black-dracula);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 310px) {
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+  }
+}
